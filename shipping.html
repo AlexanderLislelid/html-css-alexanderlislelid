@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rainy Days - Homepage</title>
+    <title>Rainy Days - Shipping</title>
     <meta
       name="description"
-      content="High-quality jackets for all seasons. Discover our stylish and functional jackets for men and women. Perfect fit, trendy designs, and fast shipping!"
+      content="Learn about our shipping options, delivery times, and costs. Enjoy fast and secure shipping worldwide!"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -46,46 +46,89 @@
         ><i class="fa-solid fa-bars fa-xl"></i
       ></label>
       <nav>
-        <a href="index.html" class="active">Home</a>
+        <a href="index.html">Home</a>
         <a href="shop.html">Shop</a>
         <a href="cart.html">Cart</a>
       </nav>
     </header>
-    <main>
-      <div class="container-main">
-        <section class="first-section">
-          <img
-            src="/images/compressed_mountain.jpeg"
-            alt="man staring at distant mountaintops"
+    <main class="shipping">
+      <div class="shipping-form">
+        <h2>Shipping information:</h2>
+        <form>
+          <label for="firstname">Name:</label>
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="Firstname"
           />
-          <div class="first-section__textbox">
-            <h2>All weather protection</h2>
-            <p>
-              Our jackets are designed to keep you warm, stylish and ready for
-              any weather or adventure
-            </p>
-          </div>
-        </section>
-        <section class="second-section">
-          <div class="second-section__textbox">
-            <h3>Premium quality</h3>
-            <p>Made from high-quality materials</p>
-            <h3>All weather protection</h3>
-            <p>Insulated, waterproof and breathable options</p>
-            <h3>Modern designs</h3>
-            <p>Keeps you looking sharp!</p>
-          </div>
-          <div class="second-section__cta">
-            <img
-              src="/images/compressed_snowboarder.jpeg"
-              alt="a man snowboarding in front of an avalanche"
-            />
-            <div class="cta">
-              <h2>Pushing the comfort zone</h2>
-              <a href="shop.html">Shop now</a>
-            </div>
-          </div>
-        </section>
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            placeholder="Lastname"
+          />
+        </form>
+        <form>
+          <label for="country">Country:</label>
+          <select name="countries" id="countries">
+            <option value="norway">Norway</option>
+            <option value="germany">Germany</option>
+            <option value="denmark">Denmark</option>
+            <option value="sweden">Sweden</option>
+            <option value="finland">Finland</option>
+          </select>
+        </form>
+        <form>
+          <label for="address">Address:</label>
+          <input
+            type="text"
+            id="address"
+            name="address"
+            placeholder="Streetname 00"
+          />
+        </form>
+        <form>
+          <label for="postcode">Postal code:</label>
+          <input type="text" id="postcode" name="postcode" placeholder="0008" />
+        </form>
+        <form>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Example@gmail.com"
+          />
+        </form>
+      </div>
+      <div class="payment">
+        <h2>Payment</h2>
+        <form>
+          <label for="cardnumber">Cardnumber:</label>
+          <input
+            type="number"
+            id="cardnumber"
+            name="cardnumber"
+            placeholder="0123 4567 8901 1234"
+          />
+        </form>
+        <form>
+          <label for="cardholder">Cardholder Name:</label>
+          <input
+            type="text"
+            id="cardholder"
+            name="cardholder"
+            placeholder="Firstname Lastname"
+          />
+        </form>
+        <form>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" />
+          <label for="cvv">CVV</label>
+          <input type="number" id="cvv" name="cvv" class="cvv-" />
+        </form>
+        <a href="sucess.html" class="pay-button">Pay now</a>
       </div>
     </main>
     <footer>
