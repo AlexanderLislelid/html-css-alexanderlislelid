@@ -21,6 +21,8 @@ body {
 }
 
 /* HEADER */
+
+
 header {
     background-image: url(../images/header-image.jpg);
     width: 100%;
@@ -81,6 +83,7 @@ nav, #menu-checkbox {
     border-radius: 5px;
     border: 2px solid black;
 }
+
 #menu-checkbox:checked ~ nav a {
     text-align: center;
     border-radius: 20px;
@@ -98,6 +101,8 @@ nav a {
     
 
 /* MAIN HOME*/
+
+
 .container-main {
     display: flex;
     flex-direction: column;
@@ -139,7 +144,11 @@ nav a {
     color: black;
     border: 2px solid black;
 }
+
+
 /* SHOP */
+
+
 .shop {
     background-color: var(--background-color);
     display: flex;
@@ -181,6 +190,8 @@ nav a {
     border: 2px solid black;
 }
 /* PRODUCT INFORMATION JACKETS */
+
+
 .the-nomad-wrapper {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -192,7 +203,7 @@ nav a {
     margin-left: 60px;
 }
 .the-nomad, .jacket-info {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .jacket-info {
     display: flex;
@@ -313,6 +324,7 @@ nav a {
     margin: 80px;
     min-height: 30vh;
 }
+
 /* FOOTER */
 
 footer {
@@ -428,7 +440,7 @@ footer > * {
     gap: 40px;
 }
 .the-nomad, .jacket-info {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .cart img{
