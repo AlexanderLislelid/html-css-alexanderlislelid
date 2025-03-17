@@ -106,6 +106,8 @@ nav a {
 .container-main {
     display: flex;
     flex-direction: column;
+
+
     
 }
 .first-section {
@@ -126,9 +128,12 @@ nav a {
     margin: 0 auto;
 }
 .cta {
-    position: absolute;
-    top:60%;
-    left: 10%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 250px;
+    left: -30px;
+   
 }
 .cta a, .product-cta {
     color: white;
@@ -229,6 +234,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 40px;
 }
 .cart img{
@@ -381,15 +387,22 @@ footer > * {
 @media (min-width: 800px) {
     
     main {
+        background-color: var(--background-color);
+        background-size: cover;
+        background-repeat: no-repeat;
         display:flex;
-        max-width: 1440px;
-        margin: 0 auto;
+        justify-content: center;
         min-height: 75vh;
     }
-    .container-main {
+    .homepage {
         background-image: url(../images/background.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        display:flex;
+        justify-content: center;
+        min-height: 75vh;
+    }
+    .container-main {
         display: flex;
         flex-direction: column; 
         
@@ -409,6 +422,9 @@ footer > * {
     .first-section__textbox {
         background-color: orange;
         border-radius: 10px;
+        padding: 20px;
+        max-width: 25%;
+        
     }
     .second-section {
         display: flex;
@@ -420,11 +436,16 @@ footer > * {
         background-color: orange;
         padding: 20px;
         border-radius: 10px;
+        padding: 20px;
+        max-width: 25%;
+    
     }
     .cta {
-        position: absolute;
-        top:60%;
-        left: 15%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: -60%;
+        left: -10%;
 }   
 .shipping {
     background-color: #ECF2F0;
