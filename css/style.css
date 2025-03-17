@@ -22,7 +22,7 @@ body {
 
 /* HEADER */
 header {
-    background-image: url(images/header-image.jpg);
+    background-image: url(/images/header-image.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
