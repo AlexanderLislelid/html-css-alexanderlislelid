@@ -122,7 +122,7 @@ nav a {
 }
 .cta {
     position: absolute;
-    top:50%;
+    top:60%;
     left: 10%;
 }
 .cta a, .product-cta {
@@ -371,7 +371,7 @@ footer > * {
         min-height: 75vh;
     }
     .container-main {
-        background-image: url(images/background.jpg);
+        background-image: url(/images/background.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
