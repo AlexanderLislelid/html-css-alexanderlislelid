@@ -184,11 +184,15 @@ nav a {
 .the-nomad-wrapper {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    margin: 70px;
 }
 .the-nomad img {
     width: 80%;
     margin-top: 30px;
     margin-left: 60px;
+}
+.the-nomad, .jacket-info {
+    margin-top: 80px;
 }
 .jacket-info {
     display: flex;
@@ -422,6 +426,9 @@ footer > * {
     padding-top: 50px;
     padding-bottom: 100px;
     gap: 40px;
+}
+.the-nomad, .jacket-info {
+    margin-top: 80px;
 }
 
 .cart img{
