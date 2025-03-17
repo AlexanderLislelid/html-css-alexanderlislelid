@@ -203,12 +203,13 @@ nav a {
     grid-template-rows: 1fr 1fr;
     margin: 70px;
 }
-.the-nomad img {
+.jacket-image img {
     width: 80%;
     margin-top: 30px;
     margin-left: 60px;
+    border-radius: 10px;
 }
-.the-nomad, .jacket-info {
+.jacket-image, .jacket-info {
     margin-top: 50px;
 }
 .jacket-info {
@@ -226,7 +227,10 @@ nav a {
     padding: 10px 30px;
     border-radius: 50px;;
 }
-
+.jacket-info p {
+    text-align: left;
+    margin-left: 20px;
+}
 
 /* CART */
 
@@ -477,7 +481,7 @@ footer > * {
     padding-bottom: 100px;
     gap: 40px;
 }
-.the-nomad, .jacket-info {
+.jacket-image, .jacket-info {
     margin-top: 50px;
 }
 
