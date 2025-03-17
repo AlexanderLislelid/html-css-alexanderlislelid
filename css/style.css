@@ -230,8 +230,12 @@ nav a {
 .jacket-info p {
     text-align: left;
     margin-left: 20px;
+    padding-bottom: 20px;
 }
-
+.jacket-info h2 {
+    font-size: 1.3em;
+    padding:10px;
+}
 /* CART */
 
 .cart-wrapper {
