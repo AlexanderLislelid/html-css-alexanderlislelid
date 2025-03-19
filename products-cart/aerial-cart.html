@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rainy Days - Boreal</title>
-    <meta name="description" content="red, light and windproof jacket made for biking" />
+    <title>Rainy Days - Cart</title>
+    <meta
+      name="description"
+      content="Check your selected items and proceed to a fast and secure checkout."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +24,7 @@
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="images/favicon_io/favicon.ico"
+      href="../images/favicon_io/favicon.ico"
     />
     <link rel="stylesheet" href="../css/variables.css" />
     <link href="../css/style.css" rel="stylesheet" />
@@ -37,8 +40,7 @@
           src="../images/RainyDays_Logo.png"
           alt="the company logo for rainy days"
           class="companylogo"
-        />
-      </a>
+      /></a>
       <input type="checkbox" id="menu-checkbox" />
       <label for="menu-checkbox" class="hamburger-icon"
         ><i class="fa-solid fa-bars fa-xl"></i
@@ -47,31 +49,33 @@
         <a href="../index.html">Home</a>
         <a href="../shop.html">Shop</a>
         <a href="../login.html">Login</a>
-        <a href="../cart.html">Cart</a>
+        <a href="../cart.html" class="active">Cart</a>
       </nav>
     </header>
-    <main class="jacket-wrapper">
-      <section class="jacket-image">
+    <main class="cart-wrapper">
+      <section class="cart">
+        <h1>Cart:</h1>
         <img
-          src="../images/jackets/boreal.jpg"
-          alt="red, light and windproof jacket made for biking"
+          src="../images/jackets/aerial.jpg"
+          alt="grey bomber jacket for casual outings and elevated streetwear looks"
         />
       </section>
-      <section class="jacket-info">
-        <h1>Boreal / red</h1>
-        <p>Stay comfortable and protected on every ride with our high-performance red cycling jacket. Designed for all-weather conditions, it features a windproof and water-resistant fabric that keeps you dry while allowing breathability to prevent overheating. The ergonomic fit, with a high collar and elastic cuffs, ensures maximum comfort and freedom of movement.
-        </p>
-        <form>
-          <label for="sizes">Size:</label>
-          <select name="sizes" id="sizes">
-            <option value="small">Small</option>
-            <option value="medium">Medium</option>
-            <option value="large">Large</option>
-            <option value="xlarge">Extra Large</option>
-          </select>
-          <h2>160.00€</h2>
-          <a href="../products-cart/boreal-cart.html">Add to cart</a>
-      </div>
+      <section class="cart-summary">
+        <h2>Order summary:</h2>
+        <p>Product: Aerial</p>
+        <p>Color: Grey</p>
+        <p>Size: Medium</p>
+        <p>Price: 225.00€</p>
+        <p>Shipping: 0.00€</p>
+        <p>Estimated delivery: 4-5 days</p>
+        <h3>Total: 225.00€</h3>
+        <div class="cart-cta">
+          <a href="../shipping.html" class="continue-payment"
+            >Continue to payment</a
+          >
+          <a href="../shop.html" class="continue-shopping">Continue shopping</a>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="customer-service">
