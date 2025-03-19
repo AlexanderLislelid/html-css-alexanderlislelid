@@ -369,6 +369,11 @@ nav a {
     background-color: #36A025;
     border: 1px solid black;
 }
+.penguingif {
+    width: 300px;
+    height: 300px;
+    margin:40px;
+}
 /* FOOTER */
 
 footer {
@@ -405,7 +410,7 @@ footer > * {
 
 
 
-@media (min-width: 550px) {
+@media (min-width: 620px) {
     nav {
         display:block;
         position:static;
