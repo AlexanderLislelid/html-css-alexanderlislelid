@@ -34,8 +34,8 @@ header {
     background-size: cover;
     display: flex;
     margin:0px auto;
-   
 }
+
 header img {
     max-width: 140px;
     margin: 20px;
@@ -102,10 +102,7 @@ nav a {
 
 }
 
-    
-
 /* MAIN HOME*/
-
 
 .container-main {
     display: flex;
@@ -127,17 +124,19 @@ nav a {
 .first-section__textbox p  {
     text-align: left;
 }
+.first-section__textbox a {
+    color: orange;
+}
 .second-section {
     background-image: url(../images/compressed_snowboarder.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 500px;
+    min-height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .cta a, .product-cta {
     color: white;
@@ -148,15 +147,14 @@ nav a {
     font-family: var(--paragraph);
     margin: auto;
 }
+
 .cta a:hover {
     background-color: var(--orange);
     color: black;
     border: 2px solid black;
 }
 
-
 /* SHOP */
-
 
 .shop {
     background-color: var(--background-color);
@@ -198,6 +196,11 @@ nav a {
     color: black;
     border: 2px solid black;
 }
+/* ABOUT */
+
+
+
+
 /* PRODUCT INFORMATION JACKETS */
 
 
@@ -429,10 +432,9 @@ footer > * {
 
 }
 
+/* MEDIA QUERIES */
 
-/*MOBILE*/
-
-
+/*BURGER MENU*/
 
 @media (min-width: 620px) {
     nav {
@@ -587,8 +589,25 @@ footer > * {
     min-height: 75vh;
 }    
 
+    /*  About   */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    max-width: 700px;
+}
+.about p {
+    text-align: left;
+}
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;;
 }
+}
+
+@media (min-width: 1000px) {
+    .first-section__textbox {
+        max-width: 20%;
+    }
 }
