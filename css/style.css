@@ -115,27 +115,29 @@ nav a {
     display: flex;
     flex-direction: column;
 }
-.first-section img, .second-section img {
+.first-section img {
     width: 100%;
 } 
 
-.first-section__textbox, .second-section__textbox {
-    background-color: orange;
+.first-section__textbox {
+    background-color: var(--footer-color);
+    color: white;
+    padding: 20px;
 }
-
+.first-section__textbox p  {
+    text-align: left;
+}
 .second-section {
+    background-image: url(../images/compressed_snowboarder.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
     display: flex;
-
-    flex-direction: column-reverse;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
-.cta {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    bottom: 200px;
 
-}
 
 .cta a, .product-cta {
     color: white;
@@ -444,13 +446,7 @@ footer > * {
         display:inline-block;
         background: none;
     }
-    .cta {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        bottom: 300px;
-        left: -80px;
-    }
+    
    
 }
 /* TABLET / DESKTOP */
@@ -479,6 +475,7 @@ footer > * {
     .container-main {
         display: flex;
         flex-direction: column; 
+        max-width: 1440px;
         
     }
     .first-section img, .second-section img {
@@ -494,7 +491,7 @@ footer > * {
     }
     
     .first-section__textbox {
-        background-color: orange;
+        background-color:var(--footer-color);
         border-radius: 10px;
         padding: 20px;
         max-width: 25%;
@@ -503,25 +500,14 @@ footer > * {
     .second-section {
         display: flex;
         flex-direction: row-reverse;
-
+        min-height: 600px;
         gap: 20px;
         margin: 20px;
-    }
-    .second-section__textbox {
-        background-color: orange;
-        padding: 20px;
         border-radius: 10px;
-        padding: 20px;
-        max-width: 25%;
-    
+
     }
-    .cta {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        top: -60%;
-        left: -10%;
-}   
+   
+    
 .cta h2{
     font-size: 1.3em;
 }   
