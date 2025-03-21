@@ -145,7 +145,7 @@ nav a {
     border-radius: 50px;
     padding: 10px 30px;
     text-decoration: none;
-    font-family: roboto;
+    font-family: var(--paragraph);
     margin: auto;
 }
 .cta a:hover {
@@ -475,7 +475,7 @@ footer > * {
     .container-main {
         display: flex;
         flex-direction: column; 
-        max-width: 1440px;
+        max-width: 1200px;
         
     }
     .first-section img, .second-section img {
