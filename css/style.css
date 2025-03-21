@@ -401,6 +401,18 @@ nav a {
     height: 300px;
     margin:40px;
 }
+
+/* ABOUT */
+.about {
+    background-color: var(--background-color);
+    padding: 50px;
+    min-height: 70vh;
+}
+.about p {
+    margin-top: 50px;
+    text-align: left;
+}
+
 /* FOOTER */
 
 footer {
