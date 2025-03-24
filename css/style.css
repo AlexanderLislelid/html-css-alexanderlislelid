@@ -88,12 +88,13 @@ nav, #menu-checkbox {
     top: 130px;
     left: 50%;
     padding: 10px;
-    background-color: #ECF2F0;
+    background-color: var(--footer-color);
     border-radius: 5px;
     border: 2px solid black;
 }
 
 #menu-checkbox:checked ~ nav a {
+    color: #ffffff;
     text-align: center;
     border-radius: 20px;
     padding: 10px 30px;
@@ -504,6 +505,7 @@ footer > * {
         display:flex;
         justify-content: center;
         min-height: 75vh;
+        padding: 50px 0px 50px;
     }
     .container-main {
         display: flex;
