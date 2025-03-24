@@ -583,7 +583,9 @@ footer > * {
 .jacket-image, .jacket-info {
     margin-top: 50px;
 }
-
+.emptycart {
+    min-height: 75vh;
+}
 .cart img{
     width: 80%;
     border-radius: 10px;
