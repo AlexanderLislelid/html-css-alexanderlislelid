@@ -585,6 +585,7 @@ footer > * {
 }
 .emptycart {
     min-height: 75vh;
+    justify-content: flex-start;
 }
 .cart img{
     width: 80%;
