@@ -21,11 +21,13 @@ body li {
     margin-top: 30px;
 }
 body {
+    background-color: var(--background-color);
     margin: 0px auto;
 }
 label, input, textarea, button {
     font-family: var(--paragraph);
 }
+
 
 /* HEADER */
 
@@ -204,7 +206,9 @@ nav a {
 .about h2 {
     padding-top: 30px;
 }
-
+.about ul {
+    padding-bottom: 70px;
+}
 
 /* PRODUCT INFORMATION JACKETS */
 
@@ -369,9 +373,16 @@ nav a {
     background-color: #36A025;
     border: 1px solid black;
 }
-.sucess {
+.success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 80px;
     min-height: 30vh;
+}
+.success img {
+    max-width: 200px;
+    border-radius: 10px;
 }
 
 /* LOGIN PAGE */
@@ -388,8 +399,10 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 10px;
+    text-align: left;
 }
+
 .login-page button {
     color: white;
     background-color: black;
