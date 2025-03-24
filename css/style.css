@@ -15,11 +15,14 @@ body p, a {
     text-align: center;
     letter-spacing: 0.05em;
 }
+body li {
+    font-family: var(--paragraph);
+    font-weight: 600;
+    margin-top: 30px;
+}
 body {
     margin: 0px auto;
-  
 }
-
 label, input, textarea, button {
     font-family: var(--paragraph);
 }
@@ -121,7 +124,7 @@ nav a {
     color: white;
     padding: 20px;
 }
-.first-section__textbox p  {
+.first-section__textbox p, .first-section__textbox h1  {
     text-align: left;
 }
 .first-section__textbox a {
@@ -161,7 +164,7 @@ nav a {
     display: flex;
     flex-direction: column;
 }
-.shop h2 { 
+.shop h2, .shop h1 { 
     color: white;
     background-color: black;
 
@@ -198,7 +201,9 @@ nav a {
 }
 /* ABOUT */
 
-
+.about h2 {
+    padding-top: 30px;
+}
 
 
 /* PRODUCT INFORMATION JACKETS */
@@ -215,6 +220,7 @@ nav a {
     margin-left: 60px;
     border-radius: 10px;
 }
+
 .jacket-image, .jacket-info {
     margin-top: 50px;
 }
@@ -527,7 +533,7 @@ footer > * {
 }   
     /* Shop */
 
-.shop h2 { 
+.shop h2, .shop h1 { 
         grid-column: 1 / -1; 
         grid-row: 1;
         text-align: center;
