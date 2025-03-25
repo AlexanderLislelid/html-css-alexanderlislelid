@@ -579,6 +579,8 @@ footer > * {
     padding-left: 60px;
     padding-bottom: 100px;
     gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .jacket-image, .jacket-info {
     margin-top: 50px;
