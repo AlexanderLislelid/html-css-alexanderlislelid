@@ -51,7 +51,7 @@ header img {
 }
 
 .active {
-    text-decoration: underline 2px solid var(--orange);
+    text-decoration: underline 2px solid orange;
 }
 
 nav a {
