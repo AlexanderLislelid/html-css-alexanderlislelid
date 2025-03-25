@@ -417,7 +417,7 @@ nav a {
     background-color: var(--background-color);
     padding: 30px;
     min-height: 70vh;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .about p {
     margin-top: 25px;
@@ -581,6 +581,7 @@ footer > * {
 .jacket-image, .jacket-info {
     margin-top: 50px;
 }
+
 .emptycart {
     min-height: 75vh;
     justify-content: flex-start;
