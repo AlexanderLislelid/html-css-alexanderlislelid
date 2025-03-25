@@ -15,11 +15,7 @@ body p, a {
     text-align: center;
     letter-spacing: 0.05em;
 }
-body li {
-    font-family: var(--paragraph);
-    font-weight: 600;
-    margin-top: 30px;
-}
+
 body {
     background-color: var(--background-color);
     margin: 0px auto;
@@ -203,14 +199,6 @@ nav a {
     background-color: white;
     color: black;
     border: 2px solid black;
-}
-/* ABOUT */
-
-.about h2 {
-    padding-top: 30px;
-}
-.about ul {
-    padding-bottom: 70px;
 }
 
 /* PRODUCT INFORMATION JACKETS */
@@ -424,14 +412,23 @@ nav a {
 }
 
 /* ABOUT */
+
 .about {
     background-color: var(--background-color);
-    padding: 50px;
+    padding: 30px;
     min-height: 70vh;
+    margin-bottom: 50px;
 }
 .about p {
-    margin-top: 50px;
+    margin-top: 25px;
     text-align: left;
+}
+
+.about h2 {
+    padding-top: 30px;
+}
+.bold {
+    font-weight: 600;
 }
 
 /* FOOTER */
