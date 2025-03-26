@@ -405,10 +405,18 @@ nav a {
     background-color: #36A025;
     border: 1px solid black;
 }
-.penguingif {
-    width: 300px;
-    height: 300px;
-    margin:40px;
+
+/* PROFILE PAGE */
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.profile h1 {
+    background-color: black;
+    color:white;
 }
 
 /* ABOUT */
@@ -617,6 +625,7 @@ footer > * {
     /* Login */
 
 .login-page {
+
     display: flex;
     flex-direction: column;
     align-items: center;
