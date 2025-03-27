@@ -469,6 +469,10 @@ footer > * {
     flex:1;
 
 }
+footer a {
+    text-decoration: none;
+    color:white;
+}
 
 /* MEDIA QUERIES */
 
