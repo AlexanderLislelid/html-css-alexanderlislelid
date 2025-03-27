@@ -448,7 +448,7 @@ footer {
     color: white;
   
 }
-footer h4, p{
+footer h4, p, a{
     font-size: 0.8em;
     text-align: center;
     padding: 5px;
@@ -470,8 +470,10 @@ footer > * {
 
 }
 footer a {
+    display: block;
     text-decoration: none;
     color:white;
+    align-items: center;
 }
 
 /* MEDIA QUERIES */
