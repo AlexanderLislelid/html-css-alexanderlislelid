@@ -9,7 +9,13 @@ body h1, h2, h3, h4 {
     text-align: center;
     letter-spacing: 0.05em;
 }
-body p, a {
+body p {
+    font-family: var(--paragraph);
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+body a {
     font-family: var(--paragraph);
     font-size: 1em;
     text-align: center;
@@ -157,6 +163,24 @@ nav a {
     color: black;
     border: 2px solid black;
 }
+.newsletter {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-top: 40px;
+}
+.newsletter h3 {
+    font-weight: 500;
+}
+.newsletter input#email {
+    width: 250px;
+}
+.newsletter label {
+    padding: 10px;
+}
+
 
 /* SHOP */
 
@@ -555,8 +579,22 @@ footer a {
         border-radius: 10px;
 
     }
-   
+   .newsletter {
+    background: url(../images/rainydays-logo-small-compressed.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 40px auto;
+    padding: 0px 30px 30px;
+    border: 2px solid black;
+   }
     
+    .newsletter input#email {
+        border: 1px solid black;
+    }
+
 .cta h2{
     font-size: 1.3em;
 }   
