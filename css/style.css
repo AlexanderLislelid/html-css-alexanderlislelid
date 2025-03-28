@@ -181,7 +181,9 @@ nav a {
 .newsletter label {
     padding: 10px;
 }
-
+.newsletter a {
+    color: white;
+}
 /* SHOP */
 
 .shop {
@@ -520,6 +522,7 @@ footer a {
     
    
 }
+
 /* TABLET / DESKTOP */
 
 @media (min-width: 800px) {
