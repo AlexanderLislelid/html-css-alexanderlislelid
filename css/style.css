@@ -30,9 +30,7 @@ label, input, textarea, button {
     font-family: var(--paragraph);
 }
 
-
 /* HEADER */
-
 
 header {
     background-image: url(../images/header-image.jpg);
@@ -77,9 +75,9 @@ nav a:hover {
     -1px -1px 0 black,  
      1px -1px 0 black,
     -1px  1px 0 black,
-     1px  1px 0 black;
-    
+     1px  1px 0 black; 
 }
+
 .hamburger-icon {
     margin: 20px 20px;
 }
@@ -164,13 +162,16 @@ nav a {
     border: 2px solid black;
 }
 .newsletter {
-    background-color: var(--background-color);
+    background-color: var(--footer-color);
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
-    margin-top: 40px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid white; 
 }
+
 .newsletter h3 {
     font-weight: 500;
 }
@@ -180,7 +181,6 @@ nav a {
 .newsletter label {
     padding: 10px;
 }
-
 
 /* SHOP */
 
@@ -228,7 +228,6 @@ nav a {
 }
 
 /* PRODUCT INFORMATION JACKETS */
-
 
 .the-nomad-wrapper {
     display: grid;
@@ -537,7 +536,7 @@ footer a {
     /* homepage */
 
     .homepage {
-        background-image: url(../images/background.jpg);
+        background-image: url(../images/hiking-view-8753957_1280.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         display:flex;
