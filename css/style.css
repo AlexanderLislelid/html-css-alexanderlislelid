@@ -553,6 +553,7 @@ footer a {
     }
     .first-section img, .second-section img {
         border-radius: 10px;
+        border: 1px solid black;
       
     }
     .first-section { 
@@ -577,10 +578,11 @@ footer a {
         gap: 20px;
         margin: 20px;
         border-radius: 10px;
+        border: 1px solid black;
 
     }
    .newsletter {
-    background: url(../images/rainydays-logo-small-compressed.jpg);
+    background: url(../images/rainydays-logo-blue-darker.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -594,9 +596,9 @@ footer a {
     .newsletter input#email {
         border: 1px solid black;
     }
-
+    
 .cta h2{
-    font-size: 1.3em;
+    font-size: 1.5em;
 }   
     /* Shop */
 
