@@ -234,11 +234,6 @@ nav a {
 
 /* PRODUCT INFORMATION JACKETS */
 
-.the-nomad-wrapper {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  margin: 70px;
-}
 .jacket-image img {
   width: 80%;
   margin-top: 30px;
@@ -656,7 +651,7 @@ footer a {
     background-color: #ecf2f0;
     display: flex;
     flex-direction: row;
-    padding: 50px 50px 50px 50px;
+    padding: 50px;
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
