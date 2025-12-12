@@ -440,6 +440,30 @@ nav a {
   border: 1px solid black;
 }
 
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  padding: 40px 20px;
+  background-color: #cecdd0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-wrapper input {
+  width: 200px;
+  border-radius: 8px;
+  border: 1px solid var(--background-color);
+  background-color: var(--background-color);
+  padding: 5px 8px;
+}
+
+.login-wrapper input:focus,
+.login-wrapper input:hover {
+  outline: 2px solid var(--orange);
+}
+
 /* PROFILE PAGE */
 
 .profile {
