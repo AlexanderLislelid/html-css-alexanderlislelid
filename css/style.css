@@ -241,6 +241,11 @@ nav a {
   border-radius: 10px;
 }
 
+.jacket-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .jacket-image,
 .jacket-info {
   margin-top: 50px;
@@ -260,6 +265,7 @@ nav a {
   padding: 10px 30px;
   border-radius: 50px;
 }
+
 .jacket-info p {
   text-align: left;
   margin-left: 20px;
@@ -347,7 +353,8 @@ nav a {
   border: 2px solid black;
 }
 
-.continue-shopping:hover {
+.continue-shopping:hover,
+.jacket-info a:hover {
   background-color: white;
   color: black;
   border: 2px solid black;
