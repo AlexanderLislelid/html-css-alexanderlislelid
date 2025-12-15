@@ -178,6 +178,8 @@ nav a {
 }
 .newsletter input#email {
   width: 250px;
+  height: 25px;
+  border-radius: 8px;
 }
 .newsletter label {
   padding: 10px;
