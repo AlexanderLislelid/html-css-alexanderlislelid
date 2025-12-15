@@ -1,37 +1,38 @@
 @import "/css/variables.css";
 
+body {
+  background-color: var(--background-color);
+  margin: 0 auto;
+}
+
 body h1,
-h2,
-h3,
-h4 {
+body h2,
+body h3,
+body h4 {
   font-family: var(--heading);
   text-transform: uppercase;
   font-size: 1.1em;
   text-align: center;
   letter-spacing: 0.05em;
 }
-body p {
-  font-family: var(--paragraph);
-  font-size: 1em;
-  text-align: center;
-  letter-spacing: 0.05em;
-}
-body a {
-  font-family: var(--paragraph);
-  font-size: 1em;
-  text-align: center;
-  letter-spacing: 0.05em;
-}
 
-body {
-  background-color: var(--background-color);
-  margin: 0px auto;
-}
+body p,
+body a,
 label,
 input,
 textarea,
 button {
   font-family: var(--paragraph);
+  font-size: 1em;
+  letter-spacing: 0.05em;
+}
+
+body p {
+  text-align: center;
+}
+
+body a {
+  text-align: center;
 }
 
 /* HEADER */
