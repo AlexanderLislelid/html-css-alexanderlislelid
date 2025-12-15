@@ -72,6 +72,7 @@ nav a {
   margin: 10px;
   text-decoration: none;
 }
+
 nav a:hover {
   color: var(--orange);
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
@@ -81,10 +82,12 @@ nav a:hover {
 .hamburger-icon {
   margin: 20px 20px;
 }
+
 nav,
 #menu-checkbox {
   display: none;
 }
+
 #menu-checkbox:checked ~ nav {
   display: block;
   position: absolute;
@@ -103,9 +106,11 @@ nav,
   border-radius: 20px;
   padding: 10px 30px;
 }
+
 nav {
   position: absolute;
 }
+
 nav a {
   display: block;
 }
@@ -116,10 +121,12 @@ nav a {
   display: flex;
   flex-direction: column;
 }
+
 .first-section {
   display: flex;
   flex-direction: column;
 }
+
 .first-section img {
   width: 100%;
 }
@@ -129,13 +136,16 @@ nav a {
   color: white;
   padding: 20px;
 }
+
 .first-section__textbox p,
 .first-section__textbox h1 {
   text-align: left;
 }
+
 .first-section__textbox a {
   color: orange;
 }
+
 .second-section {
   background-image: url(../images/compressed_snowboarder.jpeg);
   background-size: cover;
@@ -163,6 +173,7 @@ nav a {
   color: black;
   border: 2px solid black;
 }
+
 .newsletter {
   background-color: var(--footer-color);
   color: #ffffff;
@@ -177,17 +188,21 @@ nav a {
 .newsletter h3 {
   font-weight: 500;
 }
+
 .newsletter input#email {
   width: 250px;
   height: 25px;
   border-radius: 8px;
 }
+
 .newsletter label {
   padding: 10px;
 }
+
 .newsletter a {
   color: white;
 }
+
 /* SHOP */
 
 .shop {
@@ -197,6 +212,7 @@ nav a {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .shop h2,
 .shop h1 {
   color: white;
@@ -214,6 +230,7 @@ nav a {
   border-radius: 10px;
   margin: auto;
 }
+
 .sales-section__productprice {
   display: flex;
   margin: auto;
@@ -221,6 +238,7 @@ nav a {
   margin-bottom: 30px;
   gap: 50px;
 }
+
 .sales-section__productprice p {
   background-color: #f7b32b;
   color: black;
@@ -229,6 +247,7 @@ nav a {
   padding: 10px 30px;
   font-weight: bold;
 }
+
 .product-cta:hover {
   background-color: white;
   color: black;
@@ -253,6 +272,7 @@ nav a {
 .jacket-info {
   margin-top: 50px;
 }
+
 .jacket-info {
   display: flex;
   flex-direction: column;
@@ -261,6 +281,7 @@ nav a {
   margin-bottom: 60px;
   margin-right: 60px;
 }
+
 .jacket-info a {
   color: white;
   background-color: black;
@@ -274,6 +295,7 @@ nav a {
   margin-left: 20px;
   padding-bottom: 20px;
 }
+
 .jacket-info h2 {
   font-size: 1.3em;
   padding: 10px;
@@ -289,6 +311,7 @@ nav a {
   padding: 50px;
   min-height: 50vh;
 }
+
 .shop-button {
   color: white;
   background-color: black;
@@ -297,11 +320,13 @@ nav a {
   text-decoration: none;
   margin-top: 20px;
 }
+
 .shop-button:hover {
   background-color: #ffffff;
   color: black;
   border: 2px solid black;
 }
+
 .cart-wrapper {
   background-color: #ecf2f0;
   display: flex;
@@ -310,10 +335,12 @@ nav a {
   justify-content: center;
   gap: 40px;
 }
+
 .cart img {
   width: 80%;
   border-radius: 10px;
 }
+
 .cart {
   border: 2px solid black;
   border-radius: 10px;
@@ -323,6 +350,7 @@ nav a {
   margin: 30px;
   background-color: white;
 }
+
 .cart-summary {
   border: 2px black solid;
   border-radius: 10px;
@@ -332,6 +360,7 @@ nav a {
   background-color: white;
   margin-bottom: 20px;
 }
+
 .cart-cta a {
   color: white;
   background-color: black;
@@ -339,6 +368,7 @@ nav a {
   border-radius: 50px;
   text-decoration: none;
 }
+
 .cart-cta {
   display: flex;
   flex-direction: column;
@@ -347,9 +377,11 @@ nav a {
   gap: 10px;
   margin-bottom: 40px;
 }
+
 .continue-payment {
   margin-top: 30px;
 }
+
 .continue-payment:hover {
   background-color: #36a025;
   color: black;
@@ -362,6 +394,7 @@ nav a {
   color: black;
   border: 2px solid black;
 }
+
 .emptycart img {
   max-width: 300px;
 }
@@ -372,22 +405,26 @@ nav a {
   font-size: 0.9em;
   padding: 40px;
 }
+
 .shipping {
   background-color: #ecf2f0;
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
+
 .shipping form {
   margin: 10px 40px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .shipping form input {
   padding: 5px;
   border-radius: 5px;
   border: 1px solid black;
 }
+
 .pay-button {
   color: white;
   background-color: black;
@@ -396,13 +433,16 @@ nav a {
   text-decoration: none;
   margin: 40px;
 }
+
 .cvv- {
   margin-bottom: 30px;
 }
+
 .pay-button:hover {
   background-color: #36a025;
   border: 1px solid black;
 }
+
 .success {
   display: flex;
   flex-direction: column;
@@ -410,6 +450,7 @@ nav a {
   margin: 80px;
   min-height: 30vh;
 }
+
 .success img {
   max-width: 200px;
   border-radius: 10px;
@@ -425,6 +466,7 @@ nav a {
   flex-direction: column;
   align-items: center;
 }
+
 .login-page form {
   display: flex;
   flex-direction: column;
@@ -441,6 +483,7 @@ nav a {
   text-decoration: none;
   margin: 20px;
 }
+
 .login-page button:hover {
   background-color: #36a025;
   border: 1px solid black;
@@ -478,6 +521,7 @@ nav a {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .profile h1 {
   background-color: black;
   color: white;
@@ -491,6 +535,7 @@ nav a {
   min-height: 70vh;
   margin-bottom: 30px;
 }
+
 .about p {
   margin-top: 25px;
   text-align: left;
@@ -499,6 +544,7 @@ nav a {
 .about h2 {
   padding-top: 30px;
 }
+
 .bold {
   font-weight: 600;
 }
@@ -511,6 +557,7 @@ footer {
   background-color: #0b121d;
   color: white;
 }
+
 footer h4,
 p,
 a {
@@ -518,17 +565,21 @@ a {
   text-align: center;
   padding: 5px;
 }
+
 footer p {
   font-size: 0.8em;
 }
+
 .payment-options,
 .social-media {
   text-align: center;
 }
+
 .payment-options i,
 .social-media i {
   margin: 10px;
 }
+
 .social-media {
   margin-bottom: 30px;
 }
@@ -536,6 +587,7 @@ footer p {
 footer > * {
   flex: 1;
 }
+
 footer a {
   display: block;
   text-decoration: none;
@@ -557,9 +609,11 @@ footer a:hover {
     display: block;
     position: static;
   }
+
   .hamburger-icon {
     display: none;
   }
+
   nav a {
     display: inline-block;
     background: none;
@@ -589,16 +643,19 @@ footer a:hover {
     min-height: 75vh;
     padding: 50px 0px 50px;
   }
+
   .container-main {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
   }
+
   .first-section img,
   .second-section img {
     border-radius: 10px;
     border: 1px solid black;
   }
+
   .first-section {
     display: flex;
     flex-direction: row-reverse;
@@ -612,6 +669,7 @@ footer a:hover {
     padding: 20px;
     max-width: 25%;
   }
+
   .second-section {
     display: flex;
     flex-direction: row-reverse;
@@ -621,6 +679,7 @@ footer a:hover {
     border-radius: 10px;
     border: 1px solid black;
   }
+
   .newsletter {
     color: #ffffff;
     border-radius: 10px;
@@ -636,6 +695,7 @@ footer a:hover {
   .cta h2 {
     font-size: 1.5em;
   }
+
   /* Shop */
 
   .shop h2,
@@ -645,11 +705,13 @@ footer a:hover {
     text-align: center;
     margin-bottom: 30px;
   }
+
   .shop-banner {
     grid-column: 3 / -3;
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
   .shop {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -662,6 +724,7 @@ footer a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
   .cart-wrapper {
     background-color: #ecf2f0;
     display: flex;
@@ -671,6 +734,7 @@ footer a:hover {
     max-width: 1200px;
     margin: 0 auto;
   }
+
   .jacket-image,
   .jacket-info {
     margin-top: 50px;
@@ -680,10 +744,12 @@ footer a:hover {
     min-height: 75vh;
     justify-content: flex-start;
   }
+
   .cart img {
     width: 80%;
     border-radius: 10px;
   }
+
   .cart {
     border: 2px solid black;
     border-radius: 10px;
@@ -693,6 +759,7 @@ footer a:hover {
     margin-left: 20px;
     background-color: white;
   }
+
   .cart-summary {
     border: 2px black solid;
     border-radius: 10px;
@@ -701,6 +768,7 @@ footer a:hover {
     max-width: 300px;
     background-color: white;
   }
+
   .cart-cta a {
     color: white;
     background-color: black;
@@ -708,6 +776,7 @@ footer a:hover {
     border-radius: 50px;
     text-decoration: none;
   }
+
   /* Login */
 
   .login-page {
@@ -726,6 +795,7 @@ footer a:hover {
     margin-top: 30px;
     max-width: 700px;
   }
+
   .about p {
     text-align: left;
   }
