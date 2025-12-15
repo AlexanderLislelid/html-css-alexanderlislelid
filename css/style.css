@@ -538,6 +538,11 @@ footer a {
   text-decoration: none;
   color: white;
   align-items: center;
+  font-size: 0.8rem;
+}
+
+footer a:hover {
+  font-size: 1rem;
 }
 
 /* MEDIA QUERIES */
